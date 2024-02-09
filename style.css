@@ -21,8 +21,7 @@ button,ul,.img,.subtext {
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 900;
+    
     color: #f9faf8;
     margin-bottom: 120px;
 }
@@ -133,7 +132,7 @@ ul {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 120px 0px;
+    padding: 100px 0px;
     gap: 20px;
 }
 
@@ -160,3 +159,53 @@ ul {
     color: #1f2937;
     align-self:flex-end;
 }
+
+.action {
+    background-color: #ffffff;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub_action {
+    background-color: #3882f6;
+    height: 150px;
+    width: 1020px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #ffffff;
+}
+
+.call-1 {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.call-2 {
+    font-size: 18px;
+}
+
+.sub_action button {
+    border: 2px solid #e5e7eb;
+}
+
+.footer {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
